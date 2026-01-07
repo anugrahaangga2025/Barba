@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barba Multi Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            background-color: #111;
+            color: #fff;
+        }
+
+        header {
+            background: linear-gradient(to right, #0b0b0b, #1a1a1a);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 140px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            color: #d4af37;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 10px;
+            color: #ccc;
+            font-size: 18px;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 70px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #d4af37;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .about p {
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+            color: #ddd;
+            font-size: 17px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: #1b1b1b;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #d4af37;
+        }
+
+        .card h3 {
+            color: #d4af37;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            color: #ddd;
+            margin: 8px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 35px;
+            background: #d4af37;
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #b8962e;
+        }
+
+        footer {
+            background: #000;
+            padding: 25px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Barba Multi Projects Logo">
+    <h1>BARBA MULTI PROJECTS</h1>
+    <p>Professional • Reliable • Trusted Partner</p>
+</header>
+
+<section class="about">
+    <h2>Tentang Kami</h2>
+    <p>
+        Barba Multi Projects adalah perusahaan yang bergerak di bidang konstruksi, renovasi,
+        pengadaan material, dan manajemen proyek. Kami hadir sebagai partner profesional
+        dengan komitmen kualitas dan ketepatan waktu.
+    </p>
+</section>
+
+<section>
+    <h2>Layanan Kami</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Konstruksi</h3>
+            <p>Pembangunan rumah, gedung, dan fasilitas dengan standar kerja profesional.</p>
+        </div>
+        <div class="card">
+            <h3>Renovasi</h3>
+            <p>Renovasi interior & eksterior sesuai desain dan kebutuhan klien.</p>
+        </div>
+        <div class="card">
+            <h3>General Supplier</h3>
+            <p>Penyedia material dan kebutuhan proyek dengan kualitas terjamin.</p>
+        </div>
+        <div class="card">
+            <h3>Manajemen Proyek</h3>
+            <p>Pengelolaan proyek dari perencanaan hingga serah terima.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Hubungi Kami</h2>
+    <p>📞 WhatsApp: 08xxxxxxxxxx</p>
+    <p>📧 Email: barbamultiprojects@email.com</p>
+    <a href="#" class="btn">Hubungi Sekarang</a>
+</section>
+
+<footer>
+    © 2026 Barba Multi Projects — All Rights Reserved
+</footer>
+
+</body>
+</html>
